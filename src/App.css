@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/mainbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+.banner__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+
+}
+
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.banner__text{
+  width: 500px;
+}
+
+.banner__text h3{
+  font-size: 50px;
+}
+.banner__text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.banner__text p{
+font-size: 25px;
+font-weight: 400;
+margin-top: 20px;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+
+}
+
+.navbar__text{
+  height: 60px;
+  align-items: center;
+  width: 60%;
+  
+}
+.logo{
+  width: 40%;
+margin-left: 40px; 
+ padding: 30px;
+ margin-left: 136px;
+ 
+
+}
+.logo img{
+  width: 220px;
+}
+.navbar__ul{
+  display: flex;
+  float: right;
+  padding: 40px;
+  gap: 30px;
+list-style-type: none;
+}
+.navbar__ul li a{
+  text-decoration: none;
+color: #fff;
+font-weight: 800;
+font-size: 16px;
+text-transform: uppercase;
+line-height: 34px;
+}
+.banner__btn{
+  margin-top: 35px;
+}
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+
+}
+.btn-smart{
+  background: rgb(255,69,79);
+}
+
+.about{
+  padding: 80px 0;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+}
+.col-6{
+  width: 50%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33%;
+}
+.about h3{
+  color: rgba(37,37,37,0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.p-25{
+  padding: 45px;
+}
+
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p{
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.about__btn{
+  margin-top: 35px;
+}
+.about__img{
+  width:100% ;
+  overflow: hidden;
+}
+.about__img img{
+  width: 100%;
+}
+
+.shop{
+  width: 100%;
+  background: url("/public/img/mainbg.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+.shop__text{
+  height: 450px;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.shop__text h2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 25px
+}
+.shop__text h1{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 20px;
+}
+.shop__btn{
+  margin-top: 55px;
+ margin-left: 126px
+}
+.clients{
+  width: 100%;
+  padding: 100px 0;
+  background: url("/public/img/mainbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+.client{
+  text-align: center;
+}
+
+.client h1{
+  font-style: 45px;
+  font-size: 60px;
+}
+.client p{
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.banner1 {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/pizzaMan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-attachment: fixed; */
+
+}
+
+.blackbg{
+  width: 100%;
+  background: url("/public/img/blackBg.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+
+.shop__text1{
+  height: auto;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.shop__text1 h2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.shop__text1 h1{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  /* padding-top: 20px; */
+}
+
+.prices{
+ width: 100%;
+ padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price__img{
+  width: 100%;
+}
+.price__img img{
+  width: 250px;
+}
+.price_heading{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.price__text{
+  margin-top: 15px;
+  color: #888888;
+  line-height: 29px;
+  font-size: 18px;
+  font-family: Nunito;
+}
+.price_rs{
+  font-size: 40px;
+  margin-top: 15px;
+}
